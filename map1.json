@@ -1,0 +1,79 @@
+{
+    "rooms":[
+    {
+      "id":"room1",
+      "desc":"There are door's to the north, east and west.",
+      "e":"room3",
+      "s":"",
+      "w":"room2",
+      "n":"room7",
+      "obj":["ammo", "snack"],
+      "enemies":["runner","clicker"]
+    },
+    {
+      "id":"room2",
+      "desc":"There are door's to the north and east",
+      "e":"room1",
+      "s":"",
+      "w":"",
+      "n":"room4",
+      "obj":[],
+      "enemies":["clicker", "runner"]
+    },
+    {
+      "id":"room3",
+      "desc":"There are door's to the north and west.",
+      "e":"",
+      "s":"",
+      "w":"room1",
+      "n":"room5",
+      "obj":["ammo"],
+      "enemies":["clicker"]
+    },
+    {
+      "id":"room4",
+      "desc":"There are door's to the north, east and south.",
+      "e":"room7",
+      "s":"room2",
+      "w":"",
+      "n":"room6",
+      "obj":["ammo"],
+      "enemies":["clicker"]
+    },
+    {
+      "id":"room5",
+      "desc":"There are door's to the north, south and west.",
+      "e":"",
+      "s":"room3",
+      "w":"room7",
+      "n":"room6",
+      "obj":["snack"],
+      "enemies":["runner"]
+    },
+    {
+      "id":"room6",
+      "desc":"There are door's to the west, south and east.",
+      "e":"room5",
+      "s":"room7",
+      "w":"room4",
+      "n":"",
+      "obj":["ammo"],
+      "enemies":["clicker","runner"]
+    },
+    {
+      "id":"room7",
+      "desc":"There are doors in every direction",
+      "e":"room5",
+      "s":"room1",
+      "w":"room4",
+      "n":"room6",
+      "obj":[],
+      "enemies":[]
+    }
+    ],
+    "player":{
+      "initialroom":"room1",
+      "obj":["gun"]
+    }
+  }
+  
